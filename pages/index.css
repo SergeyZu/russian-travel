@@ -40,6 +40,10 @@
 
 @import url(../blocks/intro/__list/);
 
+@import url(../blocks/intro/_list-item/intro__list-item.css);
+
+@import url(../blocks/intro/__list-span/intro__list-span.css);
+
 
 
 @import url(../blocks/photo-grid/photo-grid.css);
