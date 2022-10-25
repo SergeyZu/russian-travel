@@ -52,7 +52,7 @@
 
 @import url(../blocks/intro/__text/intro__text.css);
 
-@import url(../blocks/intro/__list/);
+@import url(../blocks/intro/__list/intro__list.css);
 
 @import url(../blocks/intro/_list-item/intro__list-item.css);
 
