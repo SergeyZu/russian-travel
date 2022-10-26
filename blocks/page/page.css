@@ -1,5 +1,7 @@
 .page {
-  margin: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   color: #fff;
@@ -7,4 +9,5 @@
   min-width: 320px;
   max-width: 1280px;
   border: red solid 1px;
+  /*padding: 28px 0 24px;*/
 }
