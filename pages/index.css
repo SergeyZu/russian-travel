@@ -82,6 +82,8 @@
 
 @import url(../blocks/place/__link/place__link.css);
 
+@import url(../blocks/place/_text/place_text.css);
+
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 
