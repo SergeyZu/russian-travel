@@ -17,7 +17,7 @@
 @media screen and (max-width: 900px) {
   .places {
     max-width: 852px;
-    padding: 0 36px 92 36px;
+    padding: 0 36px 92px 36px;
   }
 }
 
@@ -31,14 +31,14 @@
 @media screen and (max-width: 680px) {
   .places {
     max-width: 650px;
-    padding: 0 20px 90 20px;
+    padding: 0 20px 90px 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .places {
     max-width: 320px;
-    padding: 0 20px 90 20px;
+    padding: 0 20px 90px 20px;
     margin: auto;
   }
 }
