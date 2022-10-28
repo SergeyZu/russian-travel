@@ -2,3 +2,9 @@
   font-size: 12px;
   line-height: 1.7;
 }
+
+@media screen and (max-width: 768px) {
+  .place__url-heading {
+    line-height: 1;
+  }
+}
