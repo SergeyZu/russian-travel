@@ -50,7 +50,7 @@
       "text";
     row-gap: 32px;
     padding-bottom: 50px;
-    grid-template-columns: 320px 1fr;
+    grid-template-columns: 1fr;
   }
 }
 

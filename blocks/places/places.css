@@ -37,8 +37,8 @@
 
 @media screen and (max-width: 600px) {
   .places {
-    max-width: 320px;
-    padding: 0 20px 90px 20px;
-    margin: auto;
+    max-width: 600px;
+    padding: 0;
+    margin: 0 auto 66px;
   }
 }
