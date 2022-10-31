@@ -15,7 +15,7 @@
     <img src="./images/header-logo.svg" alt="Логотип" class="header__logo">
     <div class="header__lang">
       <a href="#" class="header__lang-link header__lang-link_active" target="_blank">Ru</a>
-      <a href="#" class="header__lang-link" target="_blank">En</a>
+      <a href="#" class="header__lang-link">En</a>
     </div>
   </header>
 
@@ -41,18 +41,38 @@
     </section>
 
     <section class="photo-grid content__section">
-      <img src="./images/photo-grid-train.jpg" alt="Вид из окна вагона" class="photo-grid__item">
-      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горная вершина в облаках" class="photo-grid__item">
-      <img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
-      <img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__item">
-      <img src="./images/photo-grid-arisa.jpg" alt="Лёд под колесом" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__item">
-      <img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__item">
-      <img src="./images/photo-grid-kondratiev.jpg" alt="Пешеходный переход" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__item">
-      <img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
+      <ul class="photo-grid__list">
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-train.jpg" alt="Вид из окна вагона" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element">
+          <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горная вершина в облаках" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element">
+          <img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element">
+          <img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element">
+          <img src="./images/photo-grid-arisa.jpg" alt="Лёд под колесом" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element">
+          <img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element">
+          <img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element">
+          <img src="./images/photo-grid-kondratiev.jpg" alt="Пешеходный переход" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element"><img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__item"></li>
+        <li class="photo-grid__element"><img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__item"></li>
+        <li class="photo-grid__element">
+          <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__element"><img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item"></li>
+      </ul>
     </section>
 
     <section class="places">
@@ -133,23 +153,26 @@
   </main>
 
   <footer class="footer page__footer">
-    <ul class="footer__links">
-      <li class="footer__link-item">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-      </li>
-      <li class="footer__link-item">
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-      </li>
-      <li class="footer__link-item">
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank" >Расписание</a>
-      </li>
-      <li class="footer__link-item">
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-      </li>
-      <li class="footer__link-item">
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-      </li>
-    </ul>
+    <nav class="footer__nav">
+      <ul class="footer__links">
+        <li class="footer__link-item">
+          <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank" >Расписание</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+        </li>
+        <li class="footer__link-item">
+          <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+        </li>
+      </ul>
+    </nav>
+
     <p class="footer__copyright">© 2022. Сергей Зинченко</p>
   </footer>
 

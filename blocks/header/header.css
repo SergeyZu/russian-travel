@@ -2,10 +2,10 @@
   width: 100%;
   padding: 0 48px;
   box-sizing: border-box;
-  max-width: 1184px;
+  max-width: 1280px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 768px) {

@@ -4,7 +4,7 @@
   margin: 0 0 26px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
   }
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 600px) {
   .place__paragraph {
-    padding: 0 16px 0 16px;
+    padding: 0 16px;
   }
 }
 
