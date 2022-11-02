@@ -4,4 +4,4 @@
 В проекте применены технологии **CSS** и **HTML**-верстки.
 Использовались также технологии **Grid** и **Flex-box**
 Файловая структура проекта построена по принципам **БЭМ**.
-**Адрес проекта** на GitHub: https://github.com/SergeyZu/russian-travel
+**Адрес проекта** на GitHub: https://sergeyzu.github.io/across-russia/
